@@ -3,7 +3,7 @@ import API from "../utils/API";
 import container from"../compnents/container";
 import employeeSearch from "..components/employeeSearch";
 
-//within an extends
+//extends
 state ={
     users: [],
     store: []
