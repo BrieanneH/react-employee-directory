@@ -1,14 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Table from "././Utils/table";
 
 function App() {
   return (
-    <router>
+  
       <wrapper>
-        <route exact path="/" component={searchEmployee}/>
+        <dir className= "App">
+          <Table/>
+        </dir>
       </wrapper>
-    </router>
+    
   
   );
 }
