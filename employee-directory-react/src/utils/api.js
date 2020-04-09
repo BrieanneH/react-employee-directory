@@ -1,7 +1,9 @@
 import axios from "axios";
 
+const employeeURL = 'https://randomuser.me/api/?results=10';
+
 export default{
-    getEmployeeList: function(){
-        return axios.get("https://randomuser.me/api/?results=200&nat=us");
+  search: function(){
+        return axios.get(employeeURL);
     }
 };
